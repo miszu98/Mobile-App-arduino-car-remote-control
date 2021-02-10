@@ -2,7 +2,7 @@
 ### An application that connects to a bluetooth sensor that is connected to the arduino so that communication between the phone and the car is possible
 
 ## Assumptions
-### The assumptions were to create a web application that would allow:
+### The assumptions were to create a mobile application that would allow:
 1. Connecting to the car via bluetooth
 2. Remote control
 3. Autonomous driving trim
