@@ -12,7 +12,7 @@
 * Android Studio
 
 ## Launch
-Before starting, configure the sdk.
+Before starting, configure the ```sdk```.
 
 ## Images 
 ### There is a button here to connect to the car. Arrows for remote control and switch button for changing the driving mode
