@@ -17,7 +17,7 @@ Before starting, configure the sdk.
 ## Images 
 ### There is a button here to connect to the car. Arrows for remote control and switch button for changing the driving mode
 <p align="left"> 
-  <img src="https://i.imgur.com/glf8E2n.png"  width="500px">
+  <img src="https://i.imgur.com/glf8E2n.png"  width="300px">
 </p>
 
 ## Status of project: 
