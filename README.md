@@ -3,9 +3,9 @@
 
 ## Assumptions
 ### The assumptions were to create a web application that would allow:
-1. [Connecting to the car via bluetooth]
-2. [Remote control]
-3. [Autonomous driving trim]
+1. Connecting to the car via bluetooth
+2. Remote control
+3. Autonomous driving trim
 
 ## Technologies
 * JAVA language
