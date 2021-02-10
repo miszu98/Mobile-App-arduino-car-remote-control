@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_png1"
+    android:paddingLeft="30dp"
+    android:paddingTop="16dp"
+
+    android:paddingRight="25dp"
+    android:paddingBottom="16dp"
+    tools:context="com.example.Arduino_Car_App.MainActivity">
+
+    <Button
+        android:id="@+id/forward_btn"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="389dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/forward_right_btn"
+        android:layout_toLeftOf="@+id/forward_right_btn"
+        android:background="@drawable/arrow__d_png"
+        android:textAllCaps="false"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/forward_left_btn"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/forward_btn"
+        android:layout_toStartOf="@+id/forward_btn"
+        android:layout_toLeftOf="@+id/forward_btn"
+        android:background="@drawable/arrow_left_png"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/forward_right_btn"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/reverse_btn"
+        android:layout_toEndOf="@+id/reverse_btn"
+        android:layout_toRightOf="@+id/reverse_btn"
+
+        android:background="@drawable/arrow_right_png"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/reverse_btn"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/forward_left_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/arrow_down_png"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/bluetooth_connect_btn"
+        android:layout_width="225dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_connect_png"
+        android:textSize="8sp" />
+
+    <Switch
+        android:id="@+id/auto_mode_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="308dp"
+        android:checked="false"
+        android:clickable="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+</RelativeLayout>
